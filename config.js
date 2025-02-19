@@ -13,9 +13,55 @@ global.confirmCode = ""
 global.owner = [
   ['5219531316285', '👑 Mystic - Creador 👑', true],
   ['5219531627349', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
+
+];
+
+global.suittag = ['5219993404349'];
+global.prems = ['51995386439'];
+
+global.packname = 'Sticker';
+global.author = 'The Mystic - Bot';
+global.wm = 'The Mystic - Bot';
+global.titulowm = 'The Mystic - Bot';
+global.titulowm2 = `The Mystic - Bot`
+global.igfg = 'The Mystic - Bot';
+global.wait = '*_[ ⏳ ] Cargando..._*';
+
+global.imagen1 = fs.readFileSync('./Menu2.jpg');
+global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
+global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
+global.imagen4 = fs.readFileSync('./Menu.png');
+global.imagen5 = fs.readFileSync('./src/+18.jpg');
+global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen7 = fs.readFileSync('./src/menu_pt.png');
+global.imagen8 = fs.readFileSync('./src/menu_fr.png')
+global.imagen9 = fs.readFileSync('./src/menu_en.png')
+global.imagen10 = fs.readFileSync('./src/menu_ru.png')
+
+global.mods = [];
+
+//* *******Tiempo***************
+global.d = new Date(new Date + 3600000);
+global.locale = 'es';
+global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
+global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('es', {month: 'long'});
+global.año = d.toLocaleDateString('es', {year: 'numeric'});
+global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+//* ****************************
+global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
+global.gt = 'The Mystic - Bot';
+global.mysticbot = 'The Mystic - Bot';
+global.channel = 'https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y';
+global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.waitt = '*_[ ⏳ ] Cargando..._*';
+global.waittt = '*_[ ⏳ ] Cargando..._*';
+global.waitttt = '*_[ ⏳ ] Cargando..._*';
+global.nomorown = '5219993404349';
+global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
+global.cmenut = '❖––––––『';
+global.cmenu  ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
   ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
   ['5215517489568', '💫 Mystic - Rey Endymion 💫', false],
   ['59895555511', '💫 Mystic - Collaborator 8 💫', true],
@@ -92,6 +138,9 @@ global.nomorown = '5219993404349';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
+global.cmenuf = '╰━═┅═━––––––๑\n';
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ';
+b = '┊✦ ';
 global.cmenuf = '╰━═┅═━––––––๑\n';
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ';
 global.dmenut = '*❖─┅──┅〈*';
